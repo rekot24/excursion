@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <link href="./css/sytle.css" type="stylesheet">
+    <link href="./resources/css/style.css" rel="stylesheet">
     <title>Excursion</title>
   </head>
 
@@ -10,22 +10,30 @@
 
   <body>
     <h1>Discover hidden places in the world around you</h1>
-    <a href="">Download Excursion (Coming Soon!)</a>
+    <p><a class="link" href="">Download Excursion (Coming Soon!)</a></p>
 
     <!-- Phone display with video -->
-    <p id="video"></p>
+
+    <video autoplay muted loop>
+      <source src="./resources/videos/excursion.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
 
     <!-- sub headings and picture -->
 
     <h2>Your personal travel guide</h2>
-    <h3>Excursion remembers places you like, and recommends new points of interest around you.</h3>
-    <src id="tent" img="./resources/images/camp.jpg" />
-    <src id="phone" img="./resources/images/phone.png" />
+    <p>Excursion remembers places you like, and recommends new points of interest around you.</p>
+    <p><img id="tent" src="./resources/images/camp.jpg" /></p>
+
+    <!-- Phone icon and final link -->
+
+    <p><img id="phone" src="./resources/images/phone.png" /></p>
     <h2>Coming Soon for iPhone and Android</h2>
-    <a href="">Download Excursion (Coming Soon!)</a>
+    <p><a class="link" href="">Download Excursion (Coming Soon!)</a></p>
 
     <!-- Footer -->
-    <p>&copy; Excursion</p>
+
+    <p class="footer">&copy; Excursion</p>
 
   </body>
 </html>
